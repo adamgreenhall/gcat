@@ -78,7 +78,7 @@ A word of warning that this installs [pandas](http://pandas.pydata.org/) which d
 
 ### Google Drive SDK
 In order to actually use the tool to access the document however, you'll need to first
-register your installation as an "installed application" with Google. To do this, follow the instuctions from Google [here](https://developers.google.com/drive/quickstart).
+register your installation as an "installed application" with Google. To do this, follow the instuctions from Google [here](https://developers.google.com/drive/v3/web/enable-sdk#enable_the_drive_api).
 Once you've installed gcat on your system and gone through the registration process,
 you'll need to copy the client id, client secret, into the config file created at `~/.gcat/config`
 replacing `<your_client_id_here>` and `<your_client_id_here>` with your actual information.
